@@ -1,0 +1,13 @@
+@import '../../stylesheets/common.scss';
+
+.button {
+  border-radius: 0px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.primary-button {
+  border-width: 2px !important;
+  border-color: $theme-dark !important;
+  background-color: $theme-dark !important;
+}

@@ -1,0 +1,26 @@
+@import '../../stylesheets/common.scss';
+
+.search-bar {
+    border-width: 2px !important;
+    border-color: $theme-dark !important;
+    border-style: solid;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    min-width: 300px;
+    max-width: 500px;
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+        outline: none;
+    }
+
+    .search-input {
+        width: 400px;
+        margin: 5px;
+        border-width: 0px;
+    }
+}

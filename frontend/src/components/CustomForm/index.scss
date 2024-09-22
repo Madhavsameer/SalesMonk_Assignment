@@ -1,0 +1,24 @@
+@import '../../stylesheets/common.scss';
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    > * {
+        margin: 20px !important;
+    }
+    .button {
+        border-radius: 0px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .primary-button {
+        border-width: 2px !important;
+        border-color: $theme-dark !important;
+        background-color: $theme-dark !important;
+    }
+    .align-items {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

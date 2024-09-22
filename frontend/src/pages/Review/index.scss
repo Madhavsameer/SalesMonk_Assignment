@@ -1,0 +1,12 @@
+@import '../../stylesheets/common.scss';
+
+.movie-cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.rating-color {
+    color: $theme-dark;
+}

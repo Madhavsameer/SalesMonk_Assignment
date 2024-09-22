@@ -1,0 +1,17 @@
+@import '../../stylesheets/common.scss';
+
+.card-container {
+    height: 180px;
+    width: 350px;
+    background-color: $theme-light;
+    margin: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    cursor: pointer;
+    margin: 5px;
+}
